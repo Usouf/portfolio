@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Terminal Dark Theme - Classic phosphor green */
+@layer base {
+  :root {
+    --background: 120 100% 3%;
+    --foreground: 120 100% 80%;
+
+    --terminal-green: 120 100% 50%;
+    --terminal-green-bright: 120 100% 65%;
+    --terminal-green-dim: 120 60% 40%;
+    --terminal-green-glow: 120 100% 50%;
+    --terminal-blue: 200 100% 60%;
+
+    --terminal-cursor: 120 100% 50%;
+    --terminal-selection: 120 100% 50% / 0.3;
+    --terminal-shadow: 120 100% 50% / 0.5;
+  }
+
+  body {
+    @apply bg-[hsl(var(--background))] text-[hsl(var(--foreground))];
+    font-family: 'Courier New', 'Consolas', 'Monaco', monospace;
+    cursor: default;
+  }
+
+  /* Terminal-specific styles */
+  .terminal-glow {
+    text-shadow: 0 0 10px hsl(var(--terminal-green-glow) / 0.8),
+                 0 0 20px hsl(var(--terminal-green-glow) / 0.4);
+  }
+
+  .terminal-cursor {
+    animation: blink 1s step-end infinite;
+    background: hsl(var(--terminal-cursor));
+    display: inline-block;
+    width: 0.6em;
+    height: 1.2em;
+    margin-left: 2px;
+  }
+
+  @keyframes blink {
+    50% { opacity: 0; }
+  }
+
+  .scanline {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .scanline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+      to bottom,
+      transparent 50%,
+      rgba(0, 255, 0, 0.02) 51%
+    );
+    background-size: 100% 4px;
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  .terminal-flicker {
+    animation: flicker 0.15s infinite;
+  }
+
+  @keyframes flicker {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.95; }
+  }
+
+  /* Selection styling */
+  ::selection {
+    background: hsl(var(--terminal-selection));
+    color: hsl(var(--foreground));
+  }
+
+  /* Scrollbar styling */
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: hsl(var(--background));
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--terminal-green-dim));
+    border: 2px solid hsl(var(--background));
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--terminal-green));
+  }
+}
