@@ -31,7 +31,6 @@
 
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue'
-import { getAllCommands } from '../lib/commands'
 
 const props = defineProps<{
   modelValue: string
