@@ -2,92 +2,103 @@ export const portfolioData = {
   whoami: `Usoof Mansoor
 ────────────────────────────────────────────────────────
 
-→ Full Stack Engineer (Django/React)
-→ Tech Lead & Automation Specialist
-→ 5+ years building scalable solutions
+→ Solutions Architect
+→ Enterprise Systems & Automation Specialist
+→ 5+ years designing and delivering enterprise-grade systems
 
 Currently: Automation Engineer @ Information Systems Associate
 Location: Sharjah, UAE 🇦🇪
 
 Quick Stats:
-  💻 15+ FTE hours saved through automation
-  🚀 25% reduction in processing time
-  🏗️  Full-stack applications from 0 to production
-  🔧 Expert in Django REST Framework & React.js`,
+  🏗️  Architected multi-tenant SaaS platforms serving 3,000+ users
+  💻 8+ FTE hours saved through automation pipelines
+  🚀 25% workflow efficiency improvements
+  🔧 Expert in Python/Django ecosystems & multi-tenant architectures`,
 
   about: `╔══════════════════════════════════════════════════════╗
 ║           PROFESSIONAL SUMMARY                       ║
 ╚══════════════════════════════════════════════════════╝
 
-Experienced Full Stack Engineer with 5+ years specializing
-in Python/Django development and automation solutions.
+Solutions Architect with 5+ years of experience designing and
+delivering enterprise-grade systems in aviation and corporate
+environments. Expert in Python/Django ecosystems, multi-tenant
+architectures, asynchronous workflows, and process automation.
 
-🎯 Core Expertise:
-   • Designing and implementing scalable web applications
-   • Building RESTful APIs and microservices
-   • Process automation and RPA implementation
-   • Translating business requirements into technical specs
-   • Leading technical teams and mentoring engineers
+🎯 Technical Leadership & Architecture:
+   • Architected multi-tenant SaaS platforms and enterprise
+     workflow systems serving 3,000+ users
+   • Defined enterprise architecture standards, integration
+     strategies, and CI/CD pipelines across multiple teams
+   • Led design reviews, mentored developers, and ensured
+     compliance with audit and regulatory standards
 
-🏆 Key Achievements:
-   • Saved 15+ FTE worth of effort through automation
-   • Improved processing time by 25% across workflows
-   • Built centralized authentication (SSO) systems
-   • Implemented CI/CD pipelines on Jenkins & OCI
+🏆 Core Strengths:
+   • Enterprise system architecture, scalable workflows,
+     and data modeling
+   • API-first design, integration, and multi-tenant architecture
+   • Multi-stage workflow engines, RBAC, and compliance-driven
+     systems
+   • Automation strategy using RPA and asynchronous processing
+   • Translating business requirements into architecture roadmaps
 
-💡 Technical Philosophy:
-   • Code quality and maintainability first
-   • Agile/Scrum methodologies
-   • API-first architecture
-   • Continuous learning and improvement
-   • Collaboration and knowledge sharing`,
+💡 Philosophy:
+   Delivering solutions that are scalable, maintainable, and
+   aligned with business goals, with a focus on system
+   reliability, compliance, and operational efficiency.`,
 
   skills: `╔══════════════════════════════════════════════════════╗
-║           TECHNICAL SKILLS                           ║
+║           KEY SKILLS                                 ║
 ╚══════════════════════════════════════════════════════╝
+
+📁 Enterprise Architecture & Systems Design
+   ├── Multi-tenant SaaS platforms
+   ├── Modular design & reusable components
+   ├── Workflow orchestration & audit trail management
+   ├── API-first architecture & microservices
+   ├── Integration across heterogeneous systems
+   ├── Asynchronous processing (Celery, Redis)
+   └── Task scheduling & queue management
 
 📁 Backend Development
    ├── Python (Expert)
    ├── Django & Django REST Framework
    ├── Fast API
    ├── RESTful API Design
-   └── Celery (Task Queue)
+   ├── Celery (Task Queue)
+   └── PostgreSQL, MySQL, Redis
 
 📁 Frontend Development
    ├── HTML 5 & CSS 3
-   ├── JavaScript (ES6+)
+   ├── JavaScript (ES6+) frameworks
    ├── Vue.js & Nuxt.js
    ├── TailwindCSS & Bootstrap 5
    └── Responsive Design
 
-📁 Databases
-   ├── PostgreSQL (Primary)
-   ├── MySQL
-   └── Redis (Caching)
-
-📁 DevOps & Cloud
-   ├── DigitalOcean
+📁 Cloud & DevOps
    ├── Oracle Cloud Infrastructure (OCI)
-   ├── Git & GitHub
+   ├── DigitalOcean
+   ├── Docker
    ├── CI/CD Pipelines
-   └── Sentry (Monitoring)
+   ├── Git & GitHub
+   └── System scalability and monitoring
 
-📁 Automation & RPA
+📁 Process Automation & RPA
    ├── Automation Anywhere A360
    ├── Power Automate
-   ├── UnifyApps
-   └── Process Workflow Optimization
+   ├── Designing automation pipelines
+   └── Reducing operational overhead
 
-📁 Tools & Methodologies
-   ├── Agile/Scrum
-   ├── Jira
-   ├── Lean Six Sigma
-   └── API Documentation
+📁 Leadership & Project Delivery
+   ├── Translating business requirements into technical tasks
+   ├── Mentoring & technical guidance
+   ├── Design reviews & cross-functional collaboration
+   ├── Agile/Scrum methodologies
+   └── Jira & MS Planner
 
-📁 Operating Systems
-   ├── Linux (Ubuntu, CentOS)
-   ├── Windows
-   └── macOS`,
+📁 Analytics & Decision Support
+   ├── Apache Superset
+   ├── Business intelligence reporting
+   └── Stakeholder communication & executive-level reporting`,
 
   experience: `╔══════════════════════════════════════════════════════╗
 ║           WORK EXPERIENCE                            ║
@@ -99,19 +110,20 @@ in Python/Django development and automation solutions.
 │ Apr 2024 - Present | Sharjah, UAE                   │
 └─────────────────────────────────────────────────────┘
 
-→ Developed end-to-end automation solutions using
-  Python, Django & RPA tools (Automation Anywhere A360)
+→ Designed and developed systems to automate manual
+  workflows across the company, including approval
+  workflows, document generation, and data validation
 
-→ Designed RESTful APIs for seamless system integration
+→ Defined API strategies to connect multiple systems
+  securely and reliably
 
-→ Collaborated with cross-functional teams to identify
-  process bottlenecks - achieved 25% time reduction
+→ Led cross-functional meetings to identify process
+  bottlenecks, achieving 25% workflow efficiency
+  improvements
 
-→ Created system design documentation and user stories
-  for automation projects
-
-→ Automated financial processes and user management
-  workflows - saved 8+ FTE worth of effort
+→ Implemented automation pipelines saving 8+ FTE hours
+  per week, ensuring operational scalability and
+  compliance
 
 ┌─────────────────────────────────────────────────────┐
 │ Research & Development Officer                      │
@@ -119,14 +131,21 @@ in Python/Django development and automation solutions.
 │ Jan 2023 - Apr 2024 | Sharjah, UAE                  │
 └─────────────────────────────────────────────────────┘
 
-→ Conducted business process analysis to identify
-  optimization opportunities
+→ Conducted enterprise-level process analysis and
+  optimization across training and administrative
+  workflows
 
-→ Designed and implemented APIs for automated data
-  exchange between systems
+→ Architected secure data pipelines and APIs enabling
+  automated system integration
 
-→ Reduced average processing time by 15 minutes per
-  transaction through strategic automation
+→ Delivered automation projects reducing transaction
+  processing time by 15 minutes per workflow
+
+→ Guided junior engineers and teams on architecture
+  best practices and deployment standards
+
+→ Optimized database structures for high-volume data
+  processing, improving performance by 60%
 
 ┌─────────────────────────────────────────────────────┐
 │ Research & Development Coordinator                  │
@@ -134,25 +153,21 @@ in Python/Django development and automation solutions.
 │ Oct 2020 - Jan 2023 | Sharjah, UAE                  │
 └─────────────────────────────────────────────────────┘
 
-→ Led full-stack web application development using
-  Django and JavaScript frameworks
+→ Architected and delivered full-stack web applications
+  using Django and JavaScript frameworks
 
-→ Architected and implemented RESTful APIs for
-  internal systems integration
+→ Designed and maintained RESTful APIs integrating
+  internal systems for 3,000+ users
 
-→ Optimized database queries and structures for
-  improved performance
+→ Built centralized authentication system (SSO) across
+  applications, improving security and reducing support
+  tickets by 40%
 
-→ Built Centralized Authentication System (SSO)
-  for multiple applications
+→ Managed and maintained the deployment of applications
+  on cloud platforms
 
-→ Migrated legacy websites to modern tech stacks
-  (Django + JavaScript frameworks)
-
-→ Managed deployment on AWS & DigitalOcean
-
-→ Translated business requirements into technical
-  specifications`,
+→ Translated business needs into architecture roadmaps,
+  balancing performance, compliance, and scalability`,
 
   projects: `╔══════════════════════════════════════════════════════╗
 ║           NOTABLE PROJECTS                           ║
@@ -295,10 +310,9 @@ in Python/Django development and automation solutions.
 
 🎓 Bachelor of Science in Computer Engineering
    Ajman University, UAE
-   2014 - 2019
+   Aug 2014 - Jun 2019
 
-📜 Lean Six Sigma Green Belt Certification
-   Process improvement and quality management
+📜 Lean Six Sigma White Belt Certification
 
 ─────────────────────────────────────────────────────────
 
@@ -306,7 +320,7 @@ Languages:
   🗣️  Arabic (Native)
   🗣️  Urdu (Native)
   🗣️  Hindi (Native)
-  🗣️  English (Professional Working Proficiency)`,
+  🗣️  English (Professional)`,
 
   contact: `╔══════════════════════════════════════════════════════╗
 ║           GET IN TOUCH                               ║
@@ -315,7 +329,7 @@ Languages:
 Let's build something amazing together!
 
 📧 Email:      yousuf.m.n@gmail.com
-📱 Phone:      +971 56 385 8825
+📱 Phone:      0563858825
 📍 Location:   Sharjah, UAE
 
 💼 LinkedIn:   linkedin.com/in/usoof-mansoor
@@ -324,9 +338,10 @@ Let's build something amazing together!
 ─────────────────────────────────────────────────────────
 
 Open to:
-  • Full-time opportunities (Tech Lead / Senior roles)
-  • Freelance projects (Full-stack development)
+  • Solutions Architect & Technical Leadership roles
+  • Full-time opportunities (Senior / Lead positions)
   • Consulting engagements (Architecture & Automation)
+  • Freelance projects (Enterprise system design)
   • Speaking opportunities (Tech talks & workshops)
 
 Response time: Usually within 24 hours ⚡`,

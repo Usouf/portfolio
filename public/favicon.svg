@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0066ff;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded square -->
+  <rect width="100" height="100" rx="20" fill="#1a1a2e"/>
+
+  <!-- Initials UM -->
+  <text x="50" y="67"
+        font-family="'Courier New', monospace"
+        font-size="48"
+        font-weight="bold"
+        fill="url(#grad)"
+        text-anchor="middle"
+        style="letter-spacing: -2px;">UM</text>
+
+  <!-- Terminal prompt decoration (subtle) -->
+  <circle cx="15" cy="15" r="3" fill="#00d4ff" opacity="0.6"/>
+  <circle cx="25" cy="15" r="3" fill="#0099ff" opacity="0.6"/>
+  <circle cx="35" cy="15" r="3" fill="#0066ff" opacity="0.6"/>
+</svg>
